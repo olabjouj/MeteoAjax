@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT-8">
+    <title> La meteo chez nous</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+</head>
+
+<body>
+    <section id="app">
+        <h1>
+            <span id="ville">Marseille</span>
+            <span id="tooltip">Tapez une autre ville que si vous le souhaitez</span>
+        </h1>
+        <i class="wi wi-day-rain"></i>
+        <h2>
+            <span id="temperature">25</span> C° (<span id="conditions">Ciel degage</span>)
+        </h2>
+    </section>
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+<!-- http://api.openweathermap.org/data/2.5/weather?q=VilleDuMec&appid=8e602b9ea28ed4f9f8fc97a5f6d1105c&lang=fr&units=metric -->
